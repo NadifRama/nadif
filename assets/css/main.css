@@ -1275,16 +1275,30 @@ section,
 }
 
 .qr {
-  margin: 10rem;
-  padding: 20px;
+    text-align: center; /* Center align the content */
+    padding: 20px; /* Add padding around the container */
+    background-color: #f9f9f9; /* Light background color */
+    border: 1px solid #ddd; /* Light border around the container */
+    border-radius: 8px; /* Rounded corners for the container */
+    max-width: 400px; /* Maximum width of the container */
+    margin: 0 auto; /* Center the container horizontally */
 }
 
+/* Styling for the QR name */
 .qr-name {
-  margin: 5rem;
-  padding: 10px;
+    font-size: 1.5rem; /* Font size for the heading */
+    color: #333; /* Dark text color for contrast */
+    margin-bottom: 20px; /* Margin below the heading */
 }
-qr-img {
-  whidth: 30px;
-  height: auto;
-  margin: auto;
+
+/* Container for the QR image */
+.qr-img {
+    display: inline-block; /* Keep the image block-level but centered */
+}
+
+/* QR code image styling */
+.qr-img img {
+    max-width: 100%; /* Ensure the image is responsive and fits within the container */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 8px; /* Optional: rounded corners for the image */
 }
