@@ -1273,3 +1273,18 @@ section,
 .starter-section {
   /* Add your styles here */
 }
+
+.qr {
+  margin: 10rem;
+  padding: 20px;
+}
+
+.qr-name {
+  margin: 5rem;
+  padding: 10px;
+}
+qr-img {
+  whidth: 30px;
+  height: auto;
+  margin: auto;
+}
