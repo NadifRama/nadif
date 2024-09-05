@@ -1280,7 +1280,7 @@ section,
     background-color: #f9f9f9; /* Light background color */
     border: 1px solid #ddd; /* Light border around the container */
     border-radius: 8px; /* Rounded corners for the container */
-    max-width: 400px; /* Maximum width of the container */
+    max-width: 100px; /* Maximum width of the container */
     margin: 0 auto; /* Center the container horizontally */
 }
 
