@@ -1286,6 +1286,8 @@ section,
 
 /* Styling for the QR name */
 .qr-name {
+    justify-content: center;
+    text--align: center;
     font-size: 1.5rem; /* Font size for the heading */
     color: #333; /* Dark text color for contrast */
     margin-bottom: 20px; /* Margin below the heading */
@@ -1294,6 +1296,10 @@ section,
 /* Container for the QR image */
 .qr-img {
     display: inline-block; /* Keep the image block-level but centered */
+    justify-content: center;
+    align-content: center;
+    heigth: 100px;
+    width: auto;
 }
 
 /* QR code image styling */
